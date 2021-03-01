@@ -14,7 +14,7 @@ Key priorities:
 - Take care of your loved ones
 - Learn every day
 - Become a professional in the field that you really like
-- Create
+- Create useful stuff
 
 ## Technical skills 
 - HTML (basics)
