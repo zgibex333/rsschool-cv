@@ -61,3 +61,10 @@ Can you explain what `this` means?
 ||**studied:** JS, HTML, CSS|
 ||**duration:** September 2020 - February 2021 (5 month)||
 
+## Education 
+**Yanka Kupala State University of Grodno**
+**Faculty**:  Economics and Management
+**Specialty**: World Economy (bachelor)
+**Year of ending**: 2019
+
+## English Level - B2
