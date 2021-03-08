@@ -1,157 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
     <title>CV</title>
-  </head>
-  <body>
+</head>
+<body>
+    
     <div class="container">
-      <header>
-        <h1>Front-End Trainee/Junior Developer</h1>
-      </header>
-
-      <div class="info">
-        <nav>
-          <ul class="points">
-            <li class="points"><a href="#contacts">Contacts</a></li>
-            <li class="points"><a href="#myself">About myself</a></li>
-            <li class="points"><a href="#skills">Technical skills</a></li>
-            <li class="points"><a href="#examples">Code examples</a></li>
-            <li class="points"><a href="#experience">Experience</a></li>
-          </ul>
-          <div class="avatar"></div>
-        </nav>
-
-        <main>
-          <section class="point-info">
-            <h2 class="section-head">Dzianis Czaplia</h2>
-          </section>
-          <section class="point-info">
-            <a id="contacts"></a>
-            <h2 class="section-head">Contacts</h2>
-            <ul class="contacts-info">
-              <li class="contact-me">
-                <a href="tel:375259181675">+375-25-918-16-75</a>
-              </li>
-              <li class="contact-me">
-                <a href="mailto:zgibex333@gmail.com">zgibex333@gmail.com</a>
-              </li>
-            </ul>
-          </section>
-          <section class="point-info">
-            <h2 class="section-head">About myself</h2>
-            <a id="myself"></a>
-            <p class="myself">
-              Graduate of Yanka Kupala State University of Grodno, Belarus
-              (Faculty of Economics and Management; Specialty - World Economy,
-              2019).
-            </p>
-            <p class="myself">
-              After graduation, I managed to work in logistics as a freight
-              forwarder (half a year), and currently I work in an outsourcing IT
-              company in the sales department (more than a year).
-            </p>
-            <p class="myself">
-              I started to get interested in programming after my first job.
-              After a long thought, I decided that the front-end interests me
-              most of all - in view of my past experience of drawing postcards
-              in Photoshop and due to my love for visual staff. My immediate
-              goal - to become good enough for position "Junior Front-end
-              Developer" and to start internship in company located in Grodno or
-              Minsk.
-            </p>
-            <h3>Key priorities:</h3>
-            <ul>
-              <li>Take care of your loved ones</li>
-              <li>Learn every day</li>
-              <li>Become a professional in the field that you really like</li>
-              <li>Create useful stuff</li>
-            </ul>
-          </section>
-          <section class="point-info">
-            <h2 class="section-head">Technical skills</h2>
-            <a id="skills"></a>
-            <ul class="skills">
-              <li>HTML (basics)</li>
-              <li>CSS (basics)</li>
-              <li>JavaScript (basics)</li>
-              <li>GIT (basics)</li>
-              <li>Webpack (basics)</li>
-            </ul>
-          </section>
-          <section class="point-info">
-            <h2 class="section-head">Code examples</h2>
-            <a id="examples"></a>
-            <h3>Here is a piece of JS code for RhymeMachine project:</h3>
-            <code>
-              start() <br />
-              { const interval = (60 / this.bpm) * 1000; <br />//check playing
-              <br />if ( !this.isPlaying ) { <br />this.isPlaying =
-              setInterval(() => { <br />this.repeat(); <br />}, interval)
-              <br />} else {<br />
-              clearInterval(this.isPlaying); <br />this.isPlaying = null;
-              <br />} }
-            </code>
-          </section>
-          <section class="point-info">
-            <h2 class="section-head">Experience</h2>
-            <a id="experience"></a>
-            <div class="jobs">
-              <p class="job">Jobs</p>
-              <div class="job-points">
-                <p class="title">company:</p>
-                <p>Tu-Tell Logistic</p>
-              </div>
-              <div class="job-points">
-                <p class="title">position:</p>
-                <p>Logist - Forwarder</p>
-              </div>
-              <div class="job-points">
-                <p class="title">duration:</p>
-                <p>July 2019 - December 2019 (6 months)</p>
-              </div>
-              <div class="divider"></div>
-
-              <div class="job-points">
-                <p class="title">company:</p>
-                <p>YDT</p>
-              </div>
-              <div class="job-points">
-                <p class="title">position:</p>
-                <p>Account Manager</p>
-              </div>
-              <div class="job-points">
-                <p class="title">duration:</p>
-                <p>March 2020 - present (1 year 1 month)</p>
-              </div>
-              <div class="divider"></div>
-              <p class="job">Courses</p>
-              <div class="job-points">
-                <p class="title">IT-School:</p>
-                <p>MYFREEDOM</p>
-              </div>
-              <div class="job-points">
-                <p class="title">studied:</p>
-                <p>JS, HTML, CSS</p>
-              </div>
-              <div class="job-points">
-                <p class="title">duration:</p>
-                <p>September 2020 - February 2021 (5 month)</p>
-              </div>
+        <header>
+            <div class="header-inner">
+                <div class="photo"></div>
+                <div class="name-description">
+                    <h1 class="name">DENIS CZAPLIA</h1>
+                    <h2 class="description">FRONT-END TRAINEE/DEVELOPER</h2>
+                </div>
             </div>
-          </section>
+        </header>
+        <main>
+            <aside>
+                <div class="contact section-text">
+                    <h2>CONTACTS</h2>
+                    <div class="divider"></div>
+                    <div class="text-info">
+                        <ul class="main-text">
+                            <li><a href="tel:375259181675">+375-25-918-16-75</a></li>
+                            <li><a href="mailto:zgibex333@gmail.com">zgibex333@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="skills section-text">
+                    <h2>SKILLS</h2>
+                    <div class="divider"></div>
+                    <div class="text-info">
+                        <ul class="ul-skills main-text">
+                            <li>HTML (basics)</li>
+                            <li>CSS (basics)</li>
+                            <li>JavaScript (basics)</li>
+                            <li>GIT (basics)</li>
+                            <li>English: B2</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="education section-text">
+                    <h2>EDUCATION</h2>
+                    <div class="divider "></div>
+                    <div class="text-info">
+                        <div class="degree main-text">Bachelor Degree</div>
+                    <div class="degree-info main-text">
+                        <p>Yanka Kupala State University</p>
+                        <div class="text-devide"></div>
+                        <p class ="main-text">Hrodna</p>
+                    </div>
+                    <div class="degree-info main-text">
+                        <p>2014-2019</p>
+                    </div>
+                    </div>
+                </div>
+            </aside>
+            <div class="info">
+                <section class="about-me section-text">
+                    <h2>PROFILE</h2>
+                    <div class="divider"></div>
+                    <div class="info-text main-text text-info">
+                        <p>Graduate of Yanka Kupala State University of Grodno, Belarus (Faculty of Economics and Management; Specialty - World Economy, 2019). After graduation, I managed to work in logistics as a freight forwarder (half a year), and currently I work in an outsourcing IT company in the sales department (more than a year). I started to get interested in programming after my first job. After a long thought, I decided that the front-end interests me most of all - in view of my past experience of drawing postcards in Photoshop and due to my love for visual staff. My immediate goal - to become good enough for position “Junior Front-end Developer” and to start internship in company located in Grodno or Minsk.</p>
+                    </div>
+                </section>
+                <section class="experience section-text">
+                    <h2>WORK EXPERIENCE</h2>
+                    <div class="divider"></div>
+                    <div class="info-text text-info main-text">
+                        <div class="job-title">Logist - Forwarder</div>
+                        <div class="company">Tu-Tell Logistic | Hrodna | July 2019 - December 2019</div>
+                        <div class="job-description">
+                            <ul class="duties">
+                                <li>Organization and coordination of cargo transportation.</li>
+                                <li>Document management in accordance with transport legislation</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="info-text text-info main-text">
+                        <div class="job-title">Account Manager</div>
+                        <div class="company">UNL IT Solutions | Hrodna | March 2020 - present</div>
+                        <div class="job-description">
+                            <ul class="duties">
+                                <li>Informing potential customers about the services of the company</li>
+                                <li>Keeping up to date customer data in the information system</li>
+                                <li>Maintenance of working and reporting documentation</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section class="code-examples section-text">
+                    <h2>CODE EXAMPLES</h2>
+                    <div class="divider"></div>
+                    <div class="info-text text-info main-text code">
+                        <code>start() {</code>
+                        <code class="paragraf">const interval = (60 / this.bpm) * 1000;</code>
+                        <code class="paragraf">//check playing</code>
+                        <code class="paragraf"> if ( !this.isPlaying ) {</code>
+                        <code class="paragraf-two">this.isPlaying = setInterval(() => {</code>
+                            <code class="paragraf-three">this.repeat();</code>
+                        <code class="paragraf-two"> }, interval)</code>
+                        <code class="paragraf">} else {</code>
+                        <code class="paragraf-two"> clearInterval(this.isPlaying);</code>
+                        <code class="paragraf-two">this.isPlaying = null;</code>
+                        <code class="paragraf">}</code>
+                        <code>}</code>
+                    </div>
+                </section>
+            </div>
         </main>
-      </div>
 
-      <footer></footer>
+        
     </div>
-  </body>
+    <footer>
+        <div class="footer-info">
+            <p><a href="https://github.com/zgibex333">My Github Page</a></p>
+            <p>2020</p>
+            <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="course-icon"></a>
+            <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" alt="youtube-icon"></a>
+        </div>
+     </footer>
+</body>
 </html>
